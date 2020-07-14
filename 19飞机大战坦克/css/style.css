@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#mainScreen{
+	width:512px;
+	height: 768px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden; /* 不让 div里的  东西 超出范围 */
+	border: 5px solid #FF0000;
+}
+.bg{
+	width: 512px;
+	height: 768px;
+	font-size: 60px;
+	text-align:center ;
+	position: absolute;
+	
+}
+#bg2{
+	top:-768px;
+}
+
+/* 坦克 */
+#tanke{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 210px;
+	top: 600px;
+	
+}
+
+/* 子弹 */
+.zidan{
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	background: palevioletred;
+	
+	}
+
+
+/* //苏大强 */
+.daqiang{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	background-size: 70px 70px;
+	background-image: url('../img/img(1).jpg');
+	
+	
+}
+/* gameover */
+#gameover{
+	position: absolute;
+	
+	left: 400px;
+	width:512px;
+	height: 768px;
+	font-size: 60px;
+	text-align:center;
+	line-height: 300px;
+	display:none;
+}
+
+#defen{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 30px;
+	}
+
+#start{
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	left: 220px;
+	top:400px;
+	font-size: 30px ; 
+	border: 5px solid #FF0000;
+}
